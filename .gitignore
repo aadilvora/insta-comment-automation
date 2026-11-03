@@ -1,0 +1,16 @@
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+
+# Local databases (generated at runtime)
+*.db
+*.db-shm
+*.db-wal
+
+# Dependencies
+node_modules/
+
+# OS / editor
+.DS_Store
+*.swp

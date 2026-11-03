@@ -1,0 +1,25 @@
+{
+  "name": "invest-with-clarity-insta-automation",
+  "version": "1.0.0",
+  "description": "Official Meta-compliant Instagram Comment-to-DM Automation for Invest With Clarity",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node tests/runAllTests.js"
+  },
+  "keywords": [
+    "instagram",
+    "meta-graph-api",
+    "automation",
+    "messenger-api",
+    "invest-with-clarity"
+  ],
+  "author": "Invest With Clarity",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
